@@ -24,7 +24,7 @@ public function homepage(): Response{
 
 
     return $this->render('vinyl/homepage.html.twig', [
-        'title' => 'PB $ Jans',
+        'title' => 'PB & Jams',
         'tracks' => $tracks,
         ]);
 
